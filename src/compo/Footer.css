@@ -1,0 +1,25 @@
+
+.footer{
+
+
+
+    margin-top:20vh;
+}
+
+
+
+#footer-logo{
+    height:70px;
+}
+.aboveline{
+    text-align:center;
+}
+.belowline{
+    display:flex;
+    justify-content:space-between;
+}
+ul{
+    display:flex;
+    item-decoration:none;
+    gap:15px; list-style-type: none;
+}

@@ -1,0 +1,109 @@
+.skills{
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius:50px;
+  padding:50px;
+
+}
+.skills p{
+  text-align:center;
+  margin-bottom:5vh;
+  top:0;
+}
+#skilltagline{
+  text-align:center;
+ 
+  font-weight:900;
+  font-size:2rem;
+}
+
+
+
+.skillslogo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillslogo img {
+  width: 10%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out; 
+  animation: blurToClear 2s ease-in-out forwards; 
+}
+
+
+
+@media (max-width: 480px) {
+  .skillslogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .skillslogo img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.skills {
+  height: 220px;
+  padding: 10px;
+
+  border-radius:50px;
+  
+}
+
+.skills p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight:bold;
+}
+
+.iknow {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iknow img {
+  width: 10%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out; 
+  animation: blurToClear 2s ease-in-out forwards; 
+}
+
+.iknow img:hover {
+  transform: scale(1.2); 
+}
+
+
+
+@media (max-width: 480px) {
+  .iknow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .iknow img {
+    width: 100%;
+  }
+}
+*/

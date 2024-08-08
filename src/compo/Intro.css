@@ -1,0 +1,130 @@
+.intro {
+ 
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+
+
+  .intro-title{
+    text-align:center;
+    margin-top:20vh;
+  }
+  #aboutme{
+
+margin-top:0px;
+font-size:2.5rem;
+font-weight: bold;
+
+  }
+  
+  .my_image {
+  
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .my_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    max-width: 300px;
+    object-fit: cover; 
+  }
+  
+  .my_description {
+    
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .my_description .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .my_description .cards .card {
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+   
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 0.1px solid grey;
+    background:transparent;
+  }
+  
+
+  .my_description .cards .card img{
+
+height:30px;
+width:30px;
+
+
+
+
+  }
+   .my_description .cards .card p{
+    font-size:15px;
+  }
+
+
+  .tools{
+    display:flex;
+    gap:20px;
+  }
+  .tools .tools-div{
+
+
+ 
+  
+  
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 0.1px solid grey;
+    background:transparent;
+
+  }
+  @media (max-width: 480px) {.tools{
+    display:none;
+  }
+ .toolsiknow{
+  display:none;
+ }
+  }
+  @media (max-width: 768px) {
+    .intro {
+      flex-direction: column;
+    }
+  
+    .my_image {
+      width: 80%;
+    }
+  
+    .my_description {
+      width: 90%;
+    }
+  
+    .my_description .cards {
+      flex-direction: column;
+    }
+  
+    .my_description .cards .card {
+      width: 80%;
+      margin: 10px 0;
+    }
+  }
+  
+
+
