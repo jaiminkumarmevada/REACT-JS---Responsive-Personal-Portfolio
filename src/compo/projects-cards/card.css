@@ -1,0 +1,82 @@
+.card{
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    border-radius:20px;
+}
+.info{
+    background:white;
+    display:flex;
+    width:270px;
+    height:auto;
+    text-align:center;
+    border-radius:20px;
+ 
+    
+}
+
+.unique-card {
+    --border-radius: 0.75rem;
+    --primary-color: #7257fa;
+    --secondary-color: #3c3852;
+    width: 210px;
+    font-family: "Arial";
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    background: #f1f1f3;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+    position: relative;
+  }
+  
+  .unique-card > * + * {
+    margin-top: 1.1em;
+  }
+  
+  .unique-card .unique-card__content {
+    color: var(--secondary-color);
+    font-size: 0.86rem;
+  }
+  
+  .unique-card .unique-card__title {
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .unique-card .unique-card__date {
+    color: #6e6b80;
+    font-size: 0.8rem;
+  }
+  
+  .unique-card .unique-card__arrow {
+    position: absolute;
+    background: var(--primary-color);
+    padding: 0.4rem;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    bottom: 0;
+    right: 0;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .unique-card svg {
+    transition: 0.2s;
+  }
+   .unique-card:hover .unique-card__title {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+  
+  .unique-card:hover .unique-card__arrow {
+    background: #111;
+  }
+  
+  .unique-card:hover .unique-card__arrow svg {
+    transform: translateX(3px);
+  }
+  
