@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from '../assets/canva-logo-cropped.png';
+import Moon from '../assets/moon_icon.png';
 import { Link } from 'react-scroll';
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="Logo" />
+      Jaimin<span id="logo-dot">.</span>
       </div>
       <div className="navigation-list">
         <ul>
@@ -25,7 +26,7 @@ function Header() {
         </ul>
       </div>
       <div className="right-buttons">
-        <button className="mode-button">Mode</button>
+      
         <button className="contact-button">Contact</button>
       </div>
       <button className="sidebar-toggle" onClick={toggleSidebar}>

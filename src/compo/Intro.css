@@ -35,6 +35,7 @@ font-weight: bold;
     border-radius: 10px; 
     max-width: 300px;
     object-fit: cover; 
+    
   }
   
   .my_description {
@@ -55,12 +56,12 @@ font-weight: bold;
     padding:20px;
     display:flex;
     flex-direction:column;
-   
+    border-color: #b070d9;
     margin-top: 20px;
     height: 150px;
     width: 150px;
     border-radius: 20px;
-    border: 0.1px solid grey;
+    border: 0.1px solid #b070d9;
     background:transparent;
   }
   
@@ -79,30 +80,7 @@ width:30px;
   }
 
 
-  .tools{
-    display:flex;
-    gap:20px;
-  }
-  .tools .tools-div{
-
-
- 
   
-  
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    border: 0.1px solid grey;
-    background:transparent;
-
-  }
-  @media (max-width: 480px) {.tools{
-    display:none;
-  }
- .toolsiknow{
-  display:none;
- }
-  }
   @media (max-width: 768px) {
     .intro {
       flex-direction: column;
@@ -128,3 +106,4 @@ width:30px;
   
 
 
+  

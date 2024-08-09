@@ -1,6 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
-import Jaimin from "../assets/jaimin.jpg";
+import Jaimin from "../assets/right.png";
 import "./Intro.css";
 import Codeicon from "../assets/small-icons/code-icon.png";
 import Projecticon from "../assets/small-icons/project-icon.png";
@@ -8,7 +8,7 @@ import Educationicon from "../assets/small-icons/edu-icon.png";
 function Intro() {
   return (
     <>
-      <Skills />
+ 
       <div className="intro-title">
         <p>Introduction</p>
         <p id="aboutme">About Me</p>
@@ -18,7 +18,7 @@ function Intro() {
           <img src={Jaimin} alt="Jaimin" />
         </div>
         <div className="my_description">
-          <p>Hi! I'm Jaimin Mevada,</p>
+          <p className="purple-color">Hi! I'm Jaimin Mevada,</p>
           <p>
             I am a React-based frontend developer with extensive experience in
             creating dynamic and responsive web applications. My expertise
@@ -52,32 +52,7 @@ function Intro() {
               <p>Built reponsive projects</p>
             </div>
           </div>
-          <p className="toolsiknow">Tools I know</p>
-<div className="tools">
 
-
-
-  <div className="tools-div">
-
-<img src="" alt="" />
-
-  </div>
-  <div className="tools-div">
-
-<img src="" alt="" />
-
-  </div>
-  <div className="tools-div">
-
-<img src="" alt="" />
-
-  </div>
-  <div className="tools-div">
-
-<img src="" alt="" />
-
-  </div>
-</div>
 
 
         </div>

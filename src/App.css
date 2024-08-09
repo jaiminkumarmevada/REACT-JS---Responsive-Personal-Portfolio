@@ -1,6 +1,23 @@
 body {
-   
-    background-size: cover; /* This makes sure the image covers the entire background */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
-    background-position: center center; /* This centers the image */
+   padding:0;
+   margin:0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
 }
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

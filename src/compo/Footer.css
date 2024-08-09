@@ -9,7 +9,11 @@
 
 
 #footer-logo{
-    height:70px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3rem;
+    font-weight:500;
 }
 .aboveline{
     text-align:center;

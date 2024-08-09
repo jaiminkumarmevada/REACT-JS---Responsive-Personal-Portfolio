@@ -1,74 +1,116 @@
-
 .landing {
+  height: 85vh;
 
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-profile {
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 10px; 
-  }
+.profile {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
 
-  .profile img {
-    height: 175px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
+.profile img {
+  height: 175px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 .profile p {
-    margin-top: 10px;
-    margin-bottom: 2px;    font-weight: 500;
   
+  margin-bottom: 2px;
+  font-weight: 500;
 }
 
 .tagline {
-    text-align: center;
-    max-width: 90%;
-    margin-top: 2px;
-    margin-bottom: 5px;
+  text-align: center;
+  max-width: 90%;
+  margin-top: 2px;
+  margin-bottom: 5px;
 }
 
 .tagline .main-tagline {
-    font-weight: 900;
-    font-size: 2.5rem;
-    margin-bottom: 15px; 
-  }
-  
-  .tagline .para-tagline {
-    margin-top: 2px;
-  }
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.tagline .para-tagline {
+  margin-top: 2px;
+}
 
 .buttons {
-    margin-top: 40px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .buttons button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    height:3.5rem;
-    border-radius:40px;
-  border:none;
-    cursor: pointer;
-  
+  padding: 10px 20px;
+  font-size: 1rem;
+  height: 3.5rem;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
 }
 
-.buttons .contact-me{
-      background: linear-gradient(to right, #6a5acd, #c778dd);
-    color:white;
-  
+.buttons .contact-me {
+  background: linear-gradient(to right, #6a5acd, #c778dd);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tagline .main-tagline {
+      font-size: 2rem;
+  }
+
+  .tagline .para-tagline {
+      font-size: 1rem;
+  }
+
+  .buttons {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .buttons button {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .landing {
+      height: auto;
+      padding: 15px;
+  }
+
+  .profile img {
+      height: 150px;
+  }
+
+  .tagline .main-tagline {
+      font-size: 1.8rem;
+  }
+
+  .tagline .para-tagline {
+      font-size: 0.9rem;
+  }
+
+  .buttons button {
+      padding: 10px 15px;
+      height: 3rem;
+  }
 }
 
 

@@ -4,13 +4,16 @@ import backgroundImage from './project-images/weatherproimage.png';
 
 function Card() {
   return (
-    <div
-      className="card"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-      }}
-    >
-      <div className="unique-card">
+    <>
+ 
+
+
+<div className="card-arrange">
+
+<img src={backgroundImage}alt="" />
+
+<div className="project-bottom-card">
+<div className="unique-card">
         <h3 className="unique-card__title">Title</h3>
         <p className="unique-card__content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -31,7 +34,19 @@ function Card() {
           </svg>
         </div>
       </div>
-    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</>
   );
 }
 

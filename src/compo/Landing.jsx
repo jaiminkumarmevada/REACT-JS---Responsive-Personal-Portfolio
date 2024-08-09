@@ -1,6 +1,7 @@
 import React from "react";
 import './Landing.css';
-import RJJ from '../assets/res.png';
+
+import RJJ from '../assets/braces_logo.png';
 import Reactlogo from '../assets/react-logo.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +19,11 @@ function Landing() {
        
       </div>
       <div className="tagline">
-        <p className="main-tagline">Turning ideas into real life  <br/>products is my calling.</p>
+        <p className="main-tagline">
+
+       
+Building Elegant, Efficient Frontend <br/>Experiences
+ with React Expertise</p>
      
         <p className="para-tagline">I am a frontend developer from North Gujarat & I develop reusable UI components with React.</p>
       </div>

@@ -15,8 +15,10 @@ function Footer() {
 
     <div className="footer">
         <div className="aboveline">
-            <img id="footer-logo" src={logo}alt="none" />
-            <p><FontAwesomeIcon icon={faEnvelope} /> jaiminkumarmevada@gmail.com</p>
+        <div className="logo">
+      Jaimin<span id="logo-dot">.</span>
+      </div>
+            <p>Email at: jaiminkumarmevada@gmail.com</p>
         </div>
 
 
