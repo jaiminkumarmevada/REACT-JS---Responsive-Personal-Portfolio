@@ -22,14 +22,10 @@ function Footer() {
         </div>
 
 
-        <hr/>
+
         <div className="belowline">
 <p>© 2024 Jaimin Mevada. All rights reserved.</p>
-<ul>
-    <li><FontAwesomeIcon icon={faGithub} /> Github</li>
-    <li><FontAwesomeIcon icon={faLinkedin} /> Linkdin</li>
-    
-</ul>
+
         </div>
     </div>
   )

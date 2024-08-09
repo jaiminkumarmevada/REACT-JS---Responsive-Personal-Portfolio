@@ -2,8 +2,10 @@
 .footer{
 
 
+padding:0;
 
     margin-top:20vh;
+   
 }
 
 
@@ -17,13 +19,14 @@
 }
 .aboveline{
     text-align:center;
+  
 }
 .belowline{
-    display:flex;
-    justify-content:space-between;
-}
-ul{
-    display:flex;
-    item-decoration:none;
-    gap:15px; list-style-type: none;
+    text-align:center;
+background:#b070d9;
+height:7vh;
+display:flex;
+align-items:center;
+justify-content:center;
+
 }
