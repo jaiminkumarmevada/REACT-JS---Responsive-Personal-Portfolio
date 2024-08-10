@@ -37,7 +37,17 @@ Building Elegant, Efficient Frontend <br/>Experiences
 
 
         <button className="contact-me">Contact me <FontAwesomeIcon icon={faEnvelope} /></button>
-        </Link>    <button className="my-resume">My Resume <FontAwesomeIcon icon={faDownload}/></button>
+        </Link>  
+        
+        
+        <a href="https://drive.google.com/file/d/11mkMjIq3PUZFoyP8sgClWJ8Shw_mbsGe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <button className="my-resume">My Resume <FontAwesomeIcon icon={faDownload}/></button>
+  </a>
+        
+        
+        
+        
+          
       </div>
     </div>
   );

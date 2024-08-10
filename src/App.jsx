@@ -33,8 +33,9 @@ function App() {
         <div id="home-section">
           <Landing />
         </div>
+        <Skills />
         <div id="about-section">
-          <Skills />
+         
           <Intro />
         </div>
         <div id="resume-section"></div>

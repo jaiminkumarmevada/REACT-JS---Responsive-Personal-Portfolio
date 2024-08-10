@@ -20,7 +20,12 @@ function Header() {
         <ul>
           <li><Link to="home-section" smooth={true} duration={1000}>Home</Link></li>
           <li><Link to="about-section" smooth={true} duration={1000}>About</Link></li>
-          <li><Link to="resume-section" smooth={true} duration={1000}>Resume</Link></li>
+          <li >
+  <a href="https://drive.google.com/file/d/11mkMjIq3PUZFoyP8sgClWJ8Shw_mbsGe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    Resume
+  </a>
+</li>
+
           <li><Link to="projects-section" smooth={true} duration={1000}>Projects</Link></li>
           <li><Link to="contact-section" smooth={true} duration={1000}>Contact</Link></li>
         </ul>
