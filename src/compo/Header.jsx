@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
-import logo from '../assets/canva-logo-cropped.png';
-import Moon from '../assets/moon_icon.png';
+
+
 import { Link } from 'react-scroll';
 
 function Header() {

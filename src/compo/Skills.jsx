@@ -7,7 +7,7 @@ import Git from '../assets/logos/git.png';
 import MongoDB from '../assets/logos/mongodb.webp';
 import Javascript from '../assets/logos/JS.png';
 import Reactjs from '../assets/logos/react.png';
-import Skillsbg from '../assets/skillsbg.png';
+
 
 function Skills() {
   return (

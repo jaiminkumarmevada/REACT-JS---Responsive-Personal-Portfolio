@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import FirstProject from '../assets/projects/weather.jpg'
+
 
 import Card from "./projects-cards/Card";
 function Projects() {
