@@ -1,16 +1,14 @@
-// src/database/fire.js
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"; // Import Firestore functions
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuration from environment variables
 const firebaseConfig = {
-  apiKey: "AIzaSyBe8fPKFMm_NFmix-r_Ve2PTMMTvz2PE_A",
-  authDomain: "personal-portfolio-cf4e2.firebaseapp.com",
-  projectId: "personal-portfolio-cf4e2",
-  storageBucket: "personal-portfolio-cf4e2.appspot.com",
-  messagingSenderId: "170488489603",
-  appId: "1:170488489603:web:be201dc45f6c934c0c1db6"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
@@ -20,5 +18,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 export default db;
+
+
 
 
