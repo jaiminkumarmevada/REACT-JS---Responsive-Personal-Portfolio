@@ -18,11 +18,11 @@ function Header() {
       </div>
       <div className="navigation-list">
         <ul>
-          <li><Link to="home-section" smooth={true} duration={500}>Home</Link></li>
-          <li><Link to="about-section" smooth={true} duration={500}>About</Link></li>
-          <li><Link to="resume-section" smooth={true} duration={500}>Resume</Link></li>
-          <li><Link to="projects-section" smooth={true} duration={500}>Projects</Link></li>
-          <li><Link to="contact-section" smooth={true} duration={500}>Contact</Link></li>
+          <li><Link to="home-section" smooth={true} duration={1000}>Home</Link></li>
+          <li><Link to="about-section" smooth={true} duration={1000}>About</Link></li>
+          <li><Link to="resume-section" smooth={true} duration={1000}>Resume</Link></li>
+          <li><Link to="projects-section" smooth={true} duration={1000}>Projects</Link></li>
+          <li><Link to="contact-section" smooth={true} duration={1000}>Contact</Link></li>
         </ul>
       </div>
       <div className="right-buttons">

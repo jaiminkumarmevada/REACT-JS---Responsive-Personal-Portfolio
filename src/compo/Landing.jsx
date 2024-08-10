@@ -2,6 +2,7 @@ import React from "react";
 import './Landing.css';
 
 import RJJ from '../assets/braces_logo.png';
+import { Link } from 'react-scroll';
 import Reactlogo from '../assets/react-logo.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -28,8 +29,15 @@ Building Elegant, Efficient Frontend <br/>Experiences
         <p className="para-tagline">I am a frontend developer from North Gujarat & I develop reusable UI components with React.</p>
       </div>
       <div className="buttons">
+
+
+
+      <Link to="contact-section" smooth={true} duration={3000}>
+
+
+
         <button className="contact-me">Contact me <FontAwesomeIcon icon={faEnvelope} /></button>
-        <button className="my-resume">My Resume <FontAwesomeIcon icon={faDownload}/></button>
+        </Link>    <button className="my-resume">My Resume <FontAwesomeIcon icon={faDownload}/></button>
       </div>
     </div>
   );
